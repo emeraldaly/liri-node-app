@@ -32,7 +32,7 @@ function chooseProgram(params){
 
 // request code
 var request = require('request');
-request('http://www.omdbapi.com/?t=frozen&type=movie&tomatoes=true', function (error, response, body) {
+request('http://www.omdbapi.com/?t=' + '&type=movie&tomatoes=true', function (error, response, body) {
   if (!error && response.statusCode == 200) {
     console.log(body) // Show the HTML for the Google homepage. 
   }
