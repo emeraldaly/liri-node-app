@@ -6,6 +6,7 @@ var myTwitter = require('./my-tweets.js');
 var movieThis = require('./movieThis');
 var doWhatItSays = require('./doWhatItSays.js');
 var runSpotify = require('./runSpotify.js');
+var result;
 //var twitter = require('twitter');
 //var spotify = require('spotify');
 //var request = require('request');

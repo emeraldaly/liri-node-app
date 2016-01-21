@@ -1,3 +1,6 @@
+Progress:
+The individual programs run from their individual js files. The liri.js program that chooses from the console which section to run is not complete. Input from the console is not complete.
+
 # LIRI is a Language Interpretation and Recognition Interface.
 
 1. running my-tweets will show the last 20 tweets and when they were created in the terminal [x]
