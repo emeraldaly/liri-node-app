@@ -3,9 +3,9 @@
 //var twitterKey = require("./keys.js");
 var params = process.argv.slice(2);
 //var twitter = require('twitter');
-var spotify = require('spotify');
+//var spotify = require('spotify');
 var request = require('request');
-var parsedBody;
+//var parsedBody;
 
 //choose program
 function chooseProgram(params){
