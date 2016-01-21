@@ -1,4 +1,4 @@
-//module.exports = function () {
+module.exports = function () {
 //access twitter api keys
   var twitterKey = require("./keys.js");
   var twitter = require('twitter');
@@ -25,5 +25,5 @@ client.get('statuses/user_timeline', params, function(error, tweets, response){
       console.log("Tweet: ", tweet.text);
     });
   }
-//}
 });
+}

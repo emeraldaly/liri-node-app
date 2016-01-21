@@ -1,4 +1,4 @@
-//module.exports = function(){
+module.exports = function(){
 //spotify 
 var spotify = require('spotify');
 var song = process.argv[3];
@@ -15,4 +15,4 @@ spotify.search({ type: 'track', query: song || 'How Sweet It Is'}, function(err,
         console.log(spotifyInfo)}
  
 });
-//}
+}

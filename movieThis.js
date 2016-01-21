@@ -1,4 +1,4 @@
-//module.exports = function(){
+module.exports = function(){
 // request code
 
 
@@ -22,7 +22,7 @@ request('http://www.omdbapi.com/?t=' + movie + '&y=&plot=short&r=json&tomatoes=t
     console.log("See more Rotten Tomato info at this link", body.tomatoURL);
   }
 });
-//}
+}
 
 //movie
  /* request("http://www.omdbapi.com/?t=frozen&y=&plot=short&r=json", function(error, response, body) {
